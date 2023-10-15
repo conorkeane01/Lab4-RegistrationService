@@ -22,7 +22,7 @@ public class RegistrationController {
 public class RegistrationController {
     @PostMapping("/confirm")
     public String registerUser(@RequestBody UserDetails userDetails) {
-        String confirmationMessage = String.format("Received details for %s with email %s", userDetails.getName(), userDetails.getEmail());
+        String confirmationMessage = String.format("Received details for %s ", userDetails.getName(), userDetails.getEmail());
         return confirmationMessage;
     }
 
