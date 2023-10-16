@@ -5,18 +5,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-/*
-@RestController
-public class RegistrationController {
-    @PostMapping("/register")
-    public String registerUser(@RequestBody UserDetails userDetails) {
-        return "Confirm register";
-    }
-}
-
- */
-
-
 
 @RestController
 public class RegistrationController {
@@ -27,3 +15,14 @@ public class RegistrationController {
     }
 
 }
+
+/*
+@RestController
+public class RegistrationController {
+    @PostMapping("/register")
+    public String registerUser(@RequestBody UserDetails userDetails) {
+        return "Confirm register";
+    }
+}
+
+ */
